@@ -27,18 +27,50 @@ Para executar e visualizar o projeto em **modo de desenvolvimento**, você preci
 ### Pré-requisitos: 💻
 Abaixo estará listada as ferramentas necessárias para o funcionamento do projeto.
 
-```
-Preencher aqui com as ferramentas
-```
+
+[<ins>Node</ins>](https://nodejs.org/en) 
+<br>
+[<ins>NPM</ins>](https://www.npmjs.com/) 
+<br>
+[<ins>MongoDb Atlas</ins>](https://www.mongodb.com/atlas/database) 
+<br>
+[<ins>Postman</ins>](https://www.postman.com/) 
+<br>
+
+###### Para checagem de dependências e bibliotecas vide [LINKS](https://github.com/joapedu/node-authentication#links-).
   
 ### Executando o projeto: 🏎
 Os scripts abaixo executam a compilação do projeto:
 
+###### Comando para executar a instalação de dependências e bibliotecas.
+```sh
+    npm install --save-dev
 ```
-Preencher aqui com os scripts
+###### Comando para executar o nodemon e rodar o projeto.
+```sh
+    npm run start
 ```
-   ###### Comando para executar o {{  ?  }}.
 
+---
+## Links: 🌐
+***Dependências utilizadas:***<br>
+
+[<ins>Bcrypt</ins>](https://www.npmjs.com/package/bcrypt) 
+<br>
+
+[<ins>Dotenv</ins>](https://www.npmjs.com/package/dotenv) 
+<br>
+
+[<ins>Express</ins>](https://www.npmjs.com/package/express)
+<br>
+
+[<ins>JsonWebToken</ins>](https://www.npmjs.com/package/jwt)
+<br>
+
+[<ins>Mongoose</ins>](https://www.npmjs.com/package/mongoose)
+<br>
+
+[<ins>Nodemon</ins>](https://www.npmjs.com/package/nodemon)
 
 ---
 ## Licença 📝
