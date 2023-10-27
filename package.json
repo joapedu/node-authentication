@@ -1,0 +1,31 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "<p float=\"left\">\r  <img src=\"https://img.shields.io/badge/Node.js-43853d?style=for-the-badge&logo=Node.js&logoColor=white\">\r  <img src=\"https://img.shields.io/badge/Express-010101?style=for-the-badge&logo=express&logoColor=white\">\r  <img src=\"https://img.shields.io/badge/Jwt-d63aff?style=for-the-badge&logo=json&logoColor=white\">\r  <img src=\"https://img.shields.io/badge/Mongodb-13aa52?style=for-the-badge&logo=Mongodb&logoColor=white\">\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joapedu/node-authentication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joapedu/node-authentication/issues"
+  },
+  "homepage": "https://github.com/joapedu/node-authentication#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
